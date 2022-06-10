@@ -2,10 +2,10 @@ source("global.R")
 source("ui.R")
 source("server.R")
 
-# port <- Sys.getenv('PORT')
+port <- Sys.getenv('PORT')
 
 shiny::runApp(
   appDir = getwd(),
   host = '0.0.0.0',
-  port = as.numeric(8080)
+  port = as.numeric(port)
 )
