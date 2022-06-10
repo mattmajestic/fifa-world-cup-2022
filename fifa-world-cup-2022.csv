@@ -1,9 +1,9 @@
-person,award,player,odds
-magic,golden boot,Messi,1200
-magic,golden boot,Neymar,800
-magic,golden boot,Mbappe,1400
-magic,golden boot,Kane,700
-magic,golden boot,Ronaldo,600
-magic,winner,France,1300
-magic,winner,Argentina,1600
-magic,winner,Spain,1800
+person,award,player,logic,odds
+magic,golden boot,Messi,Goals Cannabalization: Martinez,1200
+magic,golden boot,Neymar,"Goals Cannabalization: G Jesus, Martinelli",800
+magic,golden boot,Mbappe,"Goals Cannabalization: Benzema, Pogba, Greizman",1400
+magic,golden boot,Kane,"Goals Cannabalization: Sterling, Foden, Mount",700
+magic,golden boot,Ronaldo,"Goals Cannabalization: Bruno, Bernardo, L Diaz",600
+magic,winner,France,Strength: Depth,1300
+magic,winner,Argentina,Strength: Messi & Defensive Strength,1600
+magic,winner,Spain,Strength: Longer shot but could see it,1800
