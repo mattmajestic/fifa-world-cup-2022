@@ -20,5 +20,6 @@ ui <- shinydashboardPlus::dashboardPage(title = "Fifa World Cup 2022 App",scroll
                                           tags$style(HTML(".box.box-solid.box-primary>.box-header {}.box.box-solid.box-primary{background:#ffffff}")),
                  tabItems(tabItem(tabName = "odds",
                                   fluidPage()
-                                  )))
+                                  ))
+                                        ))
                                     
