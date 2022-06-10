@@ -16,5 +16,7 @@ RUN R -e "install.packages('ggplot2')"
 RUN R -e "install.packages('plotly')"
 RUN R -e "install.packages('dplyr')"
 RUN R -e "install.packages('DT')"
+RUN R -e "install.packages('shinyMobile')"
+RUN R -e "install.packages('shinyWidgets')"
 
 CMD ["/usr/bin/R", "--no-save", "--gui-none", "-f", "/app/app.R"]

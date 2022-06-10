@@ -9,6 +9,8 @@ library(ggplot2)
 library(plotly)
 library(DT)
 library(dplyr)
+library(shinyMobile)
+library(shinyWidgets)
 
 summary_tag <- h3("Welcome to the Fifa World Cup 2022 App for looking at some of the favored odds I have on the upcoming world up")
 
