@@ -1,0 +1,16 @@
+{
+  "name": "fifa-world-cup-2022",
+  "stack": "container",
+  "description": "An odds threshold to the Fifa World Cup 2022 in Qatar.",
+  "keywords": [
+    "r",
+    "plumber"
+  ],
+  "repository": "https://github.com/mattmajestic/fifa-world-cup-2022",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
