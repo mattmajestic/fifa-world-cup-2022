@@ -12,5 +12,7 @@ RUN R -e "install.packages('shinyWidgets')"
 RUN R -e "install.packages('shinyjs')"
 RUN R -e "install.packages('tidyverse')"
 RUN R -e "install.packages('httr')"
+RUN R -e "install.packages('ggplot2')"
+RUN R -e "install.packages('plotly')"
 
 CMD ["/usr/bin/R", "--no-save", "--gui-none", "-f", "/app/app.R"]

@@ -5,7 +5,6 @@ library(shinydashboard)
 library(shinydashboardPlus)
 library(shinyjs)
 library(waiter)
-library(DT)
 library(ggplot2)
 library(plotly)
 
