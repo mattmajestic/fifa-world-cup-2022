@@ -3,15 +3,16 @@ server <- function(input,output,session){
   
   output$odds_ui <- renderUI({
     
-    output$odds_plot <- renderPlotly({
-      ggplot(rv$data, aes(x=player, y=odds, fill=player))+
-        geom_bar(stat='identity')+
-        facet_grid(~award, scales="free_y")
-      
+    rv$odds_ui <- tagList()
+    
+    isolate({
+    for(bet in 1:length(unique(fifa_df$award))){
+      temp_dt <- datatable(rv$data %>% dplyr::filter(award == unique(fifa_df$award)[bet]) %>%
+                             dplyr::mutate(payout == input$bet_size *(odds/100)))
+      rv$odds_ui <- tagList(rv$odds_ui,temp_dt) 
+    }
     })
     
-    tagList(
-      plotlyOutput("odds_plot")
-    )
+    tagList(rv$odds_ui)
   })
 }

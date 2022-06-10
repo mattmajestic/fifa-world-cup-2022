@@ -14,5 +14,7 @@ RUN R -e "install.packages('tidyverse')"
 RUN R -e "install.packages('httr')"
 RUN R -e "install.packages('ggplot2')"
 RUN R -e "install.packages('plotly')"
+RUN R -e "install.packages('dplyr')"
+RUN R -e "install.packages('DT')"
 
 CMD ["/usr/bin/R", "--no-save", "--gui-none", "-f", "/app/app.R"]
